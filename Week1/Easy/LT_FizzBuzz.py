@@ -1,4 +1,5 @@
 #leetCode
+#run time beats 96.6% memory beats 82%
 class Solution:
     def fizzBuzz(self, n: int):
         out = []
