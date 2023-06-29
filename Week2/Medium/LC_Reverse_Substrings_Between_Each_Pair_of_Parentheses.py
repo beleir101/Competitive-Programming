@@ -1,5 +1,5 @@
 """what in the hell I dont even know how to do this.
-Shit code done after 40 hour will check solutions later
+Shit code done after 40 minutes will check better solutions later
 runtime beats 5%
 memory beats 5 %
 """
