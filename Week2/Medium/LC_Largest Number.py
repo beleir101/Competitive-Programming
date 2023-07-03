@@ -1,7 +1,7 @@
 """
 This is not even my code its a guy form leeetcode @marlen09
 checked the solutons after one hour of pure struggle
-I'm disgusted for not knowing magic functions and in generally with the way my brain works
+I'm disgusted for not knowing magic functions and in general with the way my brain works
 """
 class LargerNumKey(str):
     def __lt__(x, y):
