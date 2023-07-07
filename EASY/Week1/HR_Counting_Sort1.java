@@ -20,7 +20,6 @@ public class HR_Counting_Sort1 {
          * The function is expected to return an INTEGER_ARRAY.
          * The function accepts INTEGER_ARRAY arr as parameter.
          */
-
         public static List<Integer> countingSort(List<Integer> arr) {
             //write your code here
             List<Integer> sorted = new ArrayList<Integer>();
