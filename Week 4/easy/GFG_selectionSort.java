@@ -1,6 +1,6 @@
 package easy;
 
-public class selectionSort {
+public class GFG_selectionSort {
     void selectionSort(int arr[], int n)
     {
         //code here
