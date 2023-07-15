@@ -9,5 +9,5 @@ Goal is to solve at least 1 per 2 days or 4 per week
     ** HR - Indicates Hacker Rank
     ** GFG - Indicates Geeks For Geeks
 Programming Languages Used:
-1. Java1.8 for HR and GFG
+1. Java for HR and GFG
 2. Python3 for LC and CF
