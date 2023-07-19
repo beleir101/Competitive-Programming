@@ -1,0 +1,24 @@
+if __name__ == '__main__':
+    N = int(input())
+    k = []
+    orders = []
+    for i in range(N):
+        c = input()
+        v = c.split()
+        orders.append(v)
+    for m in range(len(orders)):
+        c = orders[m][0]
+        if c == "append":
+            k.append(int(orders[m][1]))
+        elif c == "insert":
+            k.insert(int(orders[m][1]),int(orders[m][2]))
+        elif c == "print":
+            print(k)
+        elif c == "remove":
+            k.remove(int(orders[m][1]))
+        elif c == "sort":
+            k.sort()
+        elif c == "pop":
+            k.pop()
+        elif c == "reverse":
+            k.reverse()
