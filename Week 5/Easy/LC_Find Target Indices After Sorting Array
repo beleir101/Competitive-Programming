@@ -1,0 +1,13 @@
+class Solution:
+    def targetIndices(self, nums: List[int], target: int) -> List[int]:
+        heapq.heapify(nums)
+        sorted = []
+        indexs = []
+        for i in range(len(nums)):
+            sorted.append(heapq.heappop(nums))
+        for k in range(len(sorted)):
+            if sorted[k] == target:
+                indexs.append(k)
+            elif sorted[k] > target:
+                break
+        return indexs
