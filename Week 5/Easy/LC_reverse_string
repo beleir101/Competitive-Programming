@@ -1,0 +1,20 @@
+class Solution:
+    def reverse(self, x: int) -> int:
+        upper = (2**31) - 1
+        lower = -(2**31)
+        if x >= 0:
+            s = str(x)
+            j = ""
+            for i in range(len(s)-1,-1,-1):
+                j += s[i]
+            if int(j) > upper:
+                return 0
+            return int(j)
+        else:
+            s = str(x)
+            j = ""
+            for i in range(len(s)-1,0,-1):
+                j += s[i]
+            if int(j) > -(lower):
+                return 0
+            return -(int(j))
