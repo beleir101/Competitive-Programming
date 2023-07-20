@@ -1,0 +1,15 @@
+c = int(input())
+trys = input()
+ar = trys.split()
+for j in range(c):
+    ar[j] = int(ar[j])
+odds, evens = 0, 0
+for i in ar:
+    if i % 2 == 1:
+        odds += 1
+    else:
+        evens += 1
+if odds > 0 and evens > 0:
+    ar.sort()
+for vn in ar:
+  print(str(vn), end = " ")
