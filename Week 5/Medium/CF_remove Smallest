@@ -1,0 +1,19 @@
+def printer(nums):
+    for b in range(len(nums)-1):
+        if nums[b+1] - nums[b] > 1:
+            return "NO"
+    return "YES"
+c = int(input())
+chances = []
+p = []
+for i in range(c *2):
+    d  = input()
+    p.append(d.split())
+    if len(p) == 2:
+        chances.append(p[1])
+        p = []
+for j in chances:
+    for q in range(len(j)):
+        j[q] = int(j[q])
+    j.sort()
+    print(printer(j))
