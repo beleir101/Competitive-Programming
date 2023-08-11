@@ -34,4 +34,4 @@ class Solution:
         elif left == 1:
             head = last
         st.next = ext
-        return head
+        return head #ead will be returned
